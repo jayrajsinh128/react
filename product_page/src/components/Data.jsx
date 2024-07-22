@@ -20,14 +20,14 @@ console.log(data)
 
   return (
     <>
-    <div style={{display:"flex", justifyContent:"center", width:"100%",border:"1px solid black", flexWrap:"wrap" }}>
+    <div style={{display:"flex", justifyContent:"center", width:"100%", flexWrap:"wrap" }}>
       {
         data.map((el)=>{
 
           return(
             
 
-<div style={{ width:"33%", border:"1px solid black" }}>
+<div style={{ width:"33%", }}>
                         <img src={el.img} alt={el.title} style={{width:"40%",height:"250px",}} /> <br></br><br />
                        
                         <h5 style={{fontFamily:"sans-serif"}}>₹{el.price}</h5>
@@ -40,7 +40,7 @@ console.log(data)
       }
        
     </div>
-    <button onClick={handleClick}>fetch data</button>
+    <button onClick={handleClick} style={{marginTop:"50px", marginBottom:"50px"}}>fetch data</button>
    </>
   )
 }

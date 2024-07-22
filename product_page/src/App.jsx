@@ -66,7 +66,7 @@ function App() {
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-6 col-xl-3">
                     <div class="single-footer-widget footer_1">
-                        <a href="index.html"> <img src="img/footer_logo.png" alt/> </a>
+                        <a href="index.html"> <img src="https://www.promotionalwears.com/image/cache/catalog/brand-logo/ambrane-brand-300x300.png" style={{window:"10px", height:"60px"}} alt/> </a>
                         <p>But when shot real her. Chamber her one visite removal six
                             sending himself boys scot exquisite existend an </p>
                         <p>But when shot real her hamber her </p>
@@ -98,37 +98,7 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-8 col-xl-3">
-                    <div class="single-footer-widget footer_3">
-                        <h4>Instagram</h4>
-                        <div class="footer_img">
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_1.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_2.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_3.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_4.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_5.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                            <div class="single_footer_img">
-                                <img src="img/footer_img_6.png" alt/>
-                                <a href="#"><i class="ti-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
++
             </div>
         </div>
     </footer>
