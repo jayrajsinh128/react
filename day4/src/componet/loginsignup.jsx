@@ -21,7 +21,17 @@ function Loginsignup() {
              email : email,
              pass : password
          }
-         setArr([...arr,obj])
+         if(obj.email ==""&& obj.pass =="")
+         {
+          Swal.fire("SweetAlert2 is working!");
+        }
+          else
+            {
+              Swal.fire("Sign up In Sucessfully.");
+
+             setArr([...arr,obj]);
+         }
+         
  
      }
      const handleLoginClick =()=>{
